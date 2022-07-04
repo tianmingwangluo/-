@@ -1,0 +1,64 @@
+.box-tl{
+	background: transparent url(1_1.gif) no-repeat 0 0;
+	padding-left:6px;
+    zoom:1;
+}
+.box-tc {
+	height: 28px;
+	background: transparent url(1_2.gif) repeat-x 0 0;
+	overflow: hidden;
+	text-align:left;
+	line-height:28px;
+	color:white;
+}
+
+.box-tr {
+	background: transparent url(1_3.gif) no-repeat right;
+	padding-right:4px;
+}
+.box-ml {
+	background: transparent url(2_1.gif) repeat-y left;
+	padding-left: 6px;
+}
+.box-mc {
+	background:none;
+	padding: 4px 10px;
+	font-family: "Myriad Pro","Myriad Web","Tahoma","Helvetica","Arial",sans-serif;
+	color: #393939;
+	font-size: 12px;
+	background:#FFFFFF;
+}
+.box-mr {
+	background: transparent url(2_3.gif) repeat-y right;
+	padding-right: 6px;
+}
+.box-bl {
+	background: transparent url(3_1.gif) repeat-y left;
+	padding-left: 6px;
+}
+.box-bc {
+	background: transparent url(3_2.gif);
+	height:28px;
+	overflow:hidden;
+}
+
+.box-br {
+	background: transparent url(3_3.gif) repeat-y right;
+	padding-right: 6px;
+}
+
+.box-tool {
+	position:absolute;
+	top:1px;
+	right:6px;
+}
+.box-tool a{
+	float:right;
+	display:block;
+	width:31px;
+	height:19px;
+	background:transparent url(close.gif) no-repeat;
+}
+.box-tool a:hover{
+	background:transparent url(close.gif) no-repeat 0 -19px;
+}

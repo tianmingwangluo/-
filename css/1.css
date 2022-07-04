@@ -1,0 +1,13 @@
+#ebg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 站点背景图片 */
+	background-image: url("../video/bj.jpg");
+	/* background-image: url(图片api路径); */
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
